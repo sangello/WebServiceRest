@@ -35,7 +35,16 @@ public class CursoDao {
 	 * @return Curso
 	 */
 	public Curso getIdCurso(int id) {
-		return getAllCursos().get(id);
+		Curso curs= null;
+		
+		ArrayList<Curso> lc = getAllCursos();
+		for (Curso curso : lc) {
+			if (id==curso.getId()) {
+				curs = curso;
+			}
+		}
+		
+		return curs;
 	}
 	
 }

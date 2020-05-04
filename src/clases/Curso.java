@@ -7,6 +7,10 @@ public class Curso {
 	private String image;
 	private String price;
 	private String profesor;
+	
+	public Curso() {
+		super();
+	}
 
 	public Curso(Integer id, String title, String image, String price, String profesor) {
 		super();

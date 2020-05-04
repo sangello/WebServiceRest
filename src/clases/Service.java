@@ -27,7 +27,7 @@ public class Service {
 		cursoDao = new CursoDao();
 		Gson gson = new Gson();
 	        
-		return gson.toJson(cursoDao.getIdCurso(id+1));
+		return gson.toJson(cursoDao.getIdCurso(id));
 	}
 	
 	@GET 	//se indica el tipo del metodo que determina como se recibe la informacion en este caso es get
