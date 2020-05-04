@@ -13,5 +13,5 @@
 	<servlet-mapping> 
 		<servlet-name>Jersey REST Service</servlet-name> 
 		<url-pattern>/restService/*</url-pattern> <!--- ruta de nuestro web service -->
-	</servlet-mapping>  
+	</servlet-mapping>
 </web-app>

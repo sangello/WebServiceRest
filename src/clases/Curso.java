@@ -1,13 +1,13 @@
 package clases;
 
 public class Curso {
-	
-    private Integer id;
-    private String title;
-    private String image;
-    private String price;
-    private String profesor;
-    
+
+	private Integer id;
+	private String title;
+	private String image;
+	private String price;
+	private String profesor;
+
 	public Curso(Integer id, String title, String image, String price, String profesor) {
 		super();
 		this.id = id;
@@ -62,7 +62,5 @@ public class Curso {
 		return "Curso [id=" + id + ", title=" + title + ", image=" + image + ", price=" + price + ", profesor="
 				+ profesor + "]";
 	}
-	
-	
-	
+
 }
